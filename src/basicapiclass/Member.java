@@ -19,6 +19,9 @@ public class Member implements Cloneable {
         this.car = car;
     }
 
+    public Member() {
+    }
+
     @Override
     protected Object clone() throws CloneNotSupportedException {
         // 먼저 얕은 복사를 해서 name, age 를 복제한다.
